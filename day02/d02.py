@@ -16,7 +16,6 @@ points= {'X':1, 'Y':2, 'Z':3};
 # Play rounds, compute score
 scoreA=0;
 for match in lines:
-    # Score for the win
     if ties[match[2]]==match[0]:     # If my play ties
         scoreA+=3;
     elif beats[match[2]]==match[0]:  # My play wins

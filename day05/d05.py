@@ -19,7 +19,6 @@ f.close()
 
 
 # Initialize
-onStack  = True;
 quantity = [];
 moveFrom = [];
 moveTo   = [];

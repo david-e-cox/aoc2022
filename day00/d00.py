@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import numpy as np
 
 # Read input file
-f=open('example.txt');
-#f=open('input.txt');
-
+f=open('input.txt');
+lines = f.read().splitlines();
+f.close()
             
 print("The answer to Part A is {0:d}".format(0))
 print("The answer to Part B is {0:d}".format(0))
